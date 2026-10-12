@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ota-div-all-boss {
+  width: 100%;
+}
+.ota-div-all-boss-2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  border: solid;
+}
+.header-part-nav-bar {
+  border-radius: 10px;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffffc7;
+}
+.nav-bar {
+  z-index: 99;
+  border-radius: 10px;
+  display: flex;
+  backdrop-filter: blur(6px);
+  background-color: transparent;
+  justify-content: center;
+  ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  margin: 20px auto;
+}
+.seatmap-embraer-145-lr-and-airbus-a318 {
+  width: 230px;
+  margin: 10px auto;
+  .samalyot-uchi {
+    width: 100%;
+    height: 250px;
+    background: #05236e;
+    border: solid #05236e;
+    clip-path: polygon(50% 0, 50% 0, 100% 100%, 0% 100%);
+  }
+
+  .urtasiiiii {
+    width: 100%;
+    height: 1250px;
+    background: #05236e;
+    position: relative;
+    div:has(input:checked) {
+      opacity: 0.5;
+    }
+    div {
+      width: 50px;
+      height: 50px;
+      color: white;
+      position: absolute;
+      background-color: rgb(223, 223, 40);
+      border-radius: 10px;
+      padding: 13px;
+      label {
+        text-align: center;
+      }
+      input {
+        display: none;
+      }
+    }
+    .urindiq8 {
+      background-color: green;
+    }
+    .urindiq9 {
+      background-color: green;
+    }
+    .urindiq10 {
+      background-color: green;
+    }
+    .urindiq41 {
+      background-color: green;
+    }
+    .urindiq26 {
+      background-color: green;
+    }
+    .urindiq1 {
+      background-color: red;
+    }
+    .urindiq18 {
+      background-color: red;
+    }
+    .urindiq50 {
+      background-color: red;
+    }
+    .urindiq34 {
+      background-color: red;
+    }
+    .urindiq35 {
+      background-color: red;
+    }
+    .urindiq19 {
+      background-color: red;
+    }
+    .urindiq1 {
+      left: 6px;
+      top: 60px;
+    }
+    .urindiq2 {
+      left: 6px;
+      top: 120px;
+    }
+    .urindiq3 {
+      left: 6px;
+      top: 180px;
+    }
+    .urindiq4 {
+      left: 6px;
+      top: 240px;
+    }
+    .urindiq5 {
+      left: 6px;
+      top: 300px;
+    }
+    .urindiq6 {
+      left: 6px;
+      top: 360px;
+    }
+    .urindiq7 {
+      left: 6px;
+      top: 420px;
+    }
+    .urindiq8 {
+      left: 6px;
+      top: 480px;
+    }
+    .urindiq9 {
+      left: 6px;
+      top: 540px;
+    }
+    .urindiq10 {
+      top: 600px;
+      left: 6px;
+    }
+    .urindiq11 {
+      top: 660px;
+      left: 6px;
+    }
+    .urindiq12 {
+      top: 750px;
+      left: 6px;
+    }
+    .urindiq13 {
+      top: 810px;
+      left: 6px;
+    }
+    .urindiq14 {
+      top: 870px;
+      left: 6px;
+    }
+    .urindiq15 {
+      top: 930px;
+      left: 6px;
+    }
+    .urindiq16 {
+      top: 990px;
+      left: 6px;
+    }
+    .urindiq17 {
+      top: 1050px;
+      left: 6px;
+    }
+    .urindiq18 {
+      top: 1110px;
+      left: 6px;
+    }
+    .urindiq19 {
+      top: 180px;
+      right: 6px;
+    }
+    .urindiq20 {
+      top: 240px;
+      right: 6px;
+    }
+    .urindiq21 {
+      top: 300px;
+      right: 6px;
+    }
+    .urindiq22 {
+      top: 360px;
+      right: 6px;
+    }
+    .urindiq23 {
+      top: 420px;
+      right: 6px;
+    }
+    .urindiq24 {
+      top: 480px;
+      right: 6px;
+    }
+    .urindiq25 {
+      top: 540px;
+      right: 6px;
+    }
+    .urindiq26 {
+      top: 600px;
+      right: 6px;
+    }
+    .urindiq27 {
+      top: 660px;
+      right: 6px;
+    }
+    .urindiq28 {
+      top: 750px;
+      right: 6px;
+    }
+    .urindiq29 {
+      top: 810px;
+      right: 6px;
+    }
+    .urindiq30 {
+      top: 870px;
+      right: 6px;
+    }
+    .urindiq31 {
+      top: 930px;
+      right: 6px;
+    }
+    .urindiq32 {
+      top: 990px;
+      right: 6px;
+    }
+    .urindiq33 {
+      top: 1050px;
+      right: 6px;
+    }
+    .urindiq34 {
+      top: 1110px;
+      right: 6px;
+    }
+    .urindiq35 {
+      top: 180px;
+      right: 60px;
+    }
+    .urindiq36 {
+      top: 240px;
+      right: 60px;
+    }
+    .urindiq37 {
+      top: 300px;
+      right: 60px;
+    }
+    .urindiq38 {
+      top: 360px;
+      right: 60px;
+    }
+    .urindiq39 {
+      top: 420px;
+      right: 60px;
+    }
+    .urindiq40 {
+      top: 480px;
+      right: 60px;
+    }
+    .urindiq41 {
+      top: 540px;
+      right: 60px;
+    }
+    .urindiq42 {
+      top: 600px;
+      right: 60px;
+    }
+    .urindiq43 {
+      top: 660px;
+      right: 60px;
+    }
+    .urindiq44 {
+      top: 750px;
+      right: 60px;
+    }
+    .urindiq45 {
+      top: 810px;
+      right: 60px;
+    }
+    .urindiq46 {
+      top: 870px;
+      right: 60px;
+    }
+    .urindiq47 {
+      top: 930px;
+      right: 60px;
+    }
+    .urindiq48 {
+      top: 990px;
+      right: 60px;
+    }
+    .urindiq49 {
+      top: 1050px;
+      right: 60px;
+    }
+    .urindiq50 {
+      top: 1110px;
+      right: 60px;
+    }
+    .Toilet1 {
+      width: 60px;
+      height: 55px;
+      border-radius: 0;
+      bottom: 0px;
+    }
+    .Toilet2 {
+      width: 80px;
+      height: 55px;
+      border-radius: 0;
+      bottom: 0px;
+      right: 0;
+    }
+  }
+  .duuum-qism {
+    width: 100%;
+    height: 200px;
+    background: #05236e;
+    border-radius: 0 0 200px 200px;
+  }
+}
+.footer-part {
+  background-color: #10243b;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  border-radius: 15px;
+}
