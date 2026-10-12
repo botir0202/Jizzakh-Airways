@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ota-div-all-boss {
+  width: 100%;
+}
+.ota-div-all-boss-2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.header-part-nav-bar {
+  border-radius: 10px;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffffc7;
+}
+.nav-bar {
+  z-index: 99;
+  border-radius: 10px;
+  display: flex;
+  backdrop-filter: blur(6px);
+  background-color: transparent;
+  justify-content: center;
+  ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+.bizning-yunalishlar-part-wrapper-div {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  h1 {
+    margin-bottom: 10px;
+  }
+  img {
+    max-width: 800px;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+  }
+  ul {
+    list-style: none;
+    line-height: 30px;
+    margin: 10px auto;
+  }
+}
+.footer-part {
+  background-color: #10243b;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  border-radius: 15px;
+}

@@ -164,6 +164,7 @@ html{
   margin: 20px auto;
   img{
     max-width: 550px;
+    width: 100%;
     border-radius: 20px;
     margin: 10px ;
     display: inline-block;
@@ -175,4 +176,5 @@ html{
   color: white;
   text-align: center;
   padding: 6px;
+  border-radius: 15px;
 }
